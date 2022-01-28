@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한국유기동물센터</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <h1>
+      <a href="./">
+        <img src="./images/logo.png" alt="한국유기동물센터">
+      </a>
+    </h1>
+    <nav id="top-menu">
+      <a href="#">HOME</a><span>|</span>
+      <a href="#">LOGIN</a><span>|</span>
+      <a href="#">JOIN</a>
+    </nav>
+    <nav id="gnb">
+      <ul>
+        <li><a href="#">센터소개</a></li>
+        <li><a href="입양.html">입양</a></li>
+        <li><a href="#">센터소식</a></li>
+        <li><a href="#">커뮤니티</a></li>
+        <li><a href="#">오시는 길</a></li>
+      </ul>
+    </nav>      
+    </div>
+  </header>
+
+  <section id="main-banner">
+    <div class="container">
+    <img src="./images/main-banner1.jpg" alt="1">
+      <div class="tab-group">
+          <a href="#" class="on" onclick="changeVisual(1)">센터아이들</a>
+          <a href="#" onclick="changeVisual(2)">입양됐어요</a>
+          <a href="#" onclick="changeVisual(3)">후원하기</a>
+      </div>      
+     </div>
+  </section>
+
+  <section id="main">
+      <div class="col news">
+          <img src="./images/news1.jpg" alt="news">
+          <div class="text">
+              <h3>입양센터 소식</h3>
+              <p>귀여운 센터 아이들의 모습, 보도자료, 반려동물 관련 행사소식 등을 전해드립니다.</p>
+              <a href="#" class="link">Center News</a>
+          </div>
+      </div><!-- col -->
+
+      <div class="col community">
+        <img src="./images/news2.jpg" alt="news">
+        <div class="text">
+            <h3>소통해요</h3>
+            <p>회원들이 서로 소통하는 공간입니다.
+                회원가입 후 이용해 주세요.</p>
+            <a href="#" class="link">Community</a>
+        </div>
+    </div><!-- col -->
+
+    <div class="col volunteer">
+        <img src="./images/news3.jpg" alt="news">
+        <div class="text">
+            <h3>자원봉사 신청</h3>
+            <p>동물과 공존하는 행복한 세상!
+                여러분의 관심과 사랑이 함께하면 현실이 됩니다.</p>
+            <a href="#" class="link">Volunteer</a>
+        </div>
+    </div><!-- col -->
+  </section>
+
+  <footer>
+      <div class="container">
+        <nav class="footer-nav">
+          <p><a href="#">이용약관</a>  <span>|</span>  
+            <strong><a href="#">개인정보취급방침</a></strong>  <span>|</span>  
+            <a href="#">이메일주소</a>  <span>|</span>  
+            <a href="#">무단수집거부</a></p>
+            </nav>
+          <p>서울특별시 용산구 123-456 ｜ 전화 : 02-0000-1234 ｜ 팩스 : 02-0000-1235 ｜ 사업자등록번호 : 000-12-12345 ｜ 대표 : 홍길동</p>
+          <p>Copyright ⓒ 2021, Seoul Korean Animal Adoption Center All rights reserved.</p>
+          
+      </div>
+  </footer>
+</body>
+</html>
